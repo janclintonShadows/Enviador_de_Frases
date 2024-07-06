@@ -1,0 +1,21 @@
+PLANOS DE PROJECTO O QUE DEVE FAZER
+
+1 - Uma página principal
+	- Contem um botão que ao clicar deve gerar uma frase reflexiva.
+	-  A frase reflexiva deve ser gerada pelo chatGPT.
+	- Exibida em uma janelinha abaixo ou ao lado do botão.
+
+2 - A Frase deve ser armazenada em um ficheiro CSV
+	- Se não existir o arquivo CSV, deve criar
+	- Deve constar a frase e a data em que foi gerada.
+
+3 - Botão que permite enviar essa mensagem para alguem
+	- A mensagem deve ser enviada para o Whatsapp, usando o pyautogui.
+	- Depois de enviar a mensagem, fecha o whatsapp.
+	- Salva em um outro arquivo Dataframe o código da frase e para quem foi enviado, caso
+
+4 - Mostrar uma breve analise do conjunto de dados.
+    Se não estiver Vazia:
+	- Uma tabela de frases geradas recentemente.
+	- Uma tabela das ultimas pessoas que foram enviadas uma mensagem.
+	- Tabela & Grafico mostrando as 5 pessoas que mais recebem mensagens
